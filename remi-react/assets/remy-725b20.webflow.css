@@ -1,0 +1,821 @@
+.left-side-bar {
+  width: 15%;
+  height: 900px;
+  float: left;
+  background-image: -webkit-linear-gradient(270deg, #181823, #181823);
+  background-image: linear-gradient(180deg, #181823, #181823);
+}
+
+.main {
+  width: 85%;
+  height: 900px;
+  padding-top: 0px;
+  float: left;
+  background-image: -webkit-linear-gradient(270deg, #f7f7f7, #f7f7f7);
+  background-image: linear-gradient(180deg, #f7f7f7, #f7f7f7);
+}
+
+.logo-div {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .36), rgba(0, 0, 0, .36));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .36), rgba(0, 0, 0, .36));
+}
+
+.logo-link-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.remi-logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.account-holder-image {
+  margin-top: 39px;
+  padding-right: 21px;
+  padding-left: 21px;
+}
+
+.user-name {
+  margin-top: 13px;
+  padding-right: 16px;
+  padding-left: 16px;
+  float: none;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.settings-block {
+  margin-top: 17px;
+}
+
+.settings-icon-link {
+  float: left;
+}
+
+.dashboard-container {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 26px;
+  text-align: center;
+}
+
+.dashboard-link-block {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-right: 20px;
+  padding-left: 22px;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dashboard-link-block.w--current {
+  padding-right: 35px;
+}
+
+.side-nav-text {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1px;
+  padding-left: 7px;
+  float: left;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  text-align: left;
+  text-decoration: none;
+}
+
+.break-line {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2px;
+}
+
+.nav-icon {
+  padding-top: 1px;
+  float: left;
+}
+
+.nav-div {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(0, 0%, 4%, .24);
+  -webkit-transition: opacity 300ms ease;
+  transition: opacity 300ms ease;
+}
+
+.nav-div:hover {
+  background-image: -webkit-linear-gradient(270deg, rgba(88, 88, 88, .5), rgba(88, 88, 88, .5));
+  background-image: linear-gradient(180deg, rgba(88, 88, 88, .5), rgba(88, 88, 88, .5));
+}
+
+.dash-break {
+  margin-bottom: 13px;
+}
+
+.top-nav-bar {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-image: -webkit-linear-gradient(270deg, #40f2a5, #40f2a5);
+  background-image: linear-gradient(180deg, #40f2a5, #40f2a5);
+}
+
+.emergency-button {
+  margin-right: 34px;
+  float: right;
+  border-radius: 55px;
+  background-color: #ff6161;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .2);
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+  color: #fff;
+  font-weight: 700;
+}
+
+.emergency-button:hover {
+  -webkit-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  transform: scale(1.07);
+}
+
+.page-header {
+  padding-top: 8px;
+  padding-left: 22px;
+  float: left;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.box-design {
+  margin-bottom: 23px;
+  padding-bottom: 12px;
+  border-color: #fff;
+  border-radius: 2px;
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, .5), hsla(0, 0%, 100%, .5));
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, .5), hsla(0, 0%, 100%, .5));
+  box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, .18);
+}
+
+.box-design.add-a-doctor {
+  margin-bottom: 0px;
+  background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 91%, .2), hsla(0, 0%, 91%, .2));
+  background-image: linear-gradient(180deg, hsla(0, 0%, 91%, .2), hsla(0, 0%, 91%, .2));
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+}
+
+.box-design.add-a-doctor:hover {
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+}
+
+.first-section {
+  margin: 15px 12px 1px;
+}
+
+.month-overview-container.refills {
+  padding-bottom: 13px;
+}
+
+.box-heading {
+  display: block;
+  margin-top: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Lato, sans-serif;
+  color: #2e2f31;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.box-heading.add-a-doctor-text {
+  color: #9b9b9b;
+}
+
+.circle-graphic {
+  height: 170px;
+}
+
+.replace-me-circle {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.circle-percentage {
+  position: absolute;
+  left: 0px;
+  top: 110px;
+  right: 0px;
+  display: inline-block;
+  font-family: Inconsolata, monospace;
+  color: #40f2a5;
+  font-size: 49px;
+  text-align: center;
+}
+
+.month-bullets {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 3px 10px;
+}
+
+.does-taken-text {
+  padding-left: 8px;
+  float: left;
+  font-family: Lato, sans-serif;
+  color: #9b9b9b;
+  font-weight: 400;
+}
+
+.dose-taken-circle {
+  margin-top: 3px;
+  float: left;
+}
+
+.bullets-row {
+  margin-bottom: 11px;
+  padding-left: 8px;
+}
+
+.table-div {
+  height: 235px;
+  padding-right: 27px;
+  padding-bottom: 12px;
+  padding-left: 27px;
+}
+
+.drug-name {
+  display: inline-block;
+  margin: 5px 9px;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: Lato, sans-serif;
+  color: #9b9b9b;
+  font-size: 12px;
+}
+
+.second-section {
+  margin: 4px 1px 1px;
+}
+
+.refills-link {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 8px 17px 8px 24px;
+  text-decoration: none;
+}
+
+.refills-link:hover {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #eee;
+}
+
+.refills-link:active {
+  border-bottom: 2px solid #9e9e9e;
+  background-color: transparent;
+}
+
+.refills-link-text {
+  margin-left: 5px;
+  color: #9c9c9c;
+  text-align: center;
+}
+
+.drug-dropdown {
+  display: block;
+  margin-right: auto;
+  margin-left: 20px;
+  padding: 2px 42px 2px 29px;
+  float: none;
+  border: 1px solid #cecece;
+  border-radius: 96px;
+}
+
+.drug-dropdown-text {
+  float: left;
+  color: #9b9b9b;
+  text-align: center;
+}
+
+.dropdown-icon {
+  color: #9b9b9b;
+}
+
+.nav-div-refills {
+  margin-right: 24px;
+  margin-bottom: 12px;
+  margin-left: 24px;
+}
+
+.drug-dropdown-place {
+  margin-bottom: 5px;
+}
+
+.table-row {
+  margin: 4px 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #f0f0f0;
+}
+
+.drug-table-text {
+  display: inline-block;
+  padding-left: 25px;
+  font-family: Lato, sans-serif;
+  color: #2e2f31;
+  font-weight: 700;
+}
+
+.drug-table-text.date {
+  padding-left: 38px;
+  font-weight: 300;
+}
+
+.pick-up-button {
+  margin-right: 10px;
+  margin-left: 20px;
+  padding: 2px 8px;
+  float: right;
+  border-radius: 68px;
+  background-color: #40f2a5;
+  font-size: 11px;
+}
+
+.pick-up-button.inactive {
+  margin-right: 10px;
+  float: right;
+  background-color: #d8d8d8;
+}
+
+.pick-up-button.doses-page {
+  display: block;
+  width: 190px;
+  margin-top: 19px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 6px 11px;
+  float: none;
+  font-size: 15px;
+  text-align: center;
+}
+
+.dropdown-list.w--open {
+  left: 24px;
+  border-radius: 10px;
+  background-color: #444;
+  color: #343435;
+}
+
+.drop-down-link {
+  background-color: transparent;
+  color: #fff;
+}
+
+.drop-down-link:hover {
+  background-color: #9b9b9b;
+}
+
+.remi {
+  position: absolute;
+  top: 0px;
+  right: 45px;
+  bottom: 0px;
+  width: 160px;
+}
+
+.remi.insurance {
+  margin-top: 230px;
+}
+
+.speech-bubble {
+  position: absolute;
+  top: 28px;
+  right: 247px;
+  bottom: 0px;
+  width: 246px;
+  height: 150px;
+  margin-top: 197px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.speech-bubble.insurance-page {
+  margin-top: 72px;
+  margin-right: -18px;
+  margin-left: 0px;
+}
+
+.speech-bubble.insurance-page._2 {
+  margin-top: 252px;
+}
+
+.greeting-text {
+  padding-top: 8px;
+  padding-right: 19px;
+  padding-left: 19px;
+  float: left;
+  font-family: Lato, sans-serif;
+  color: #575757;
+  font-weight: 400;
+}
+
+.welcome-text {
+  padding-right: 19px;
+  padding-left: 19px;
+  font-family: Lato, sans-serif;
+  color: #9b9b9b;
+  font-size: 13px;
+}
+
+.green-text {
+  color: #12e489;
+  font-weight: 700;
+}
+
+.main-header {
+  padding-top: 14px;
+  padding-left: 13px;
+  float: left;
+  font-family: Lato, sans-serif;
+  color: #9b9b9b;
+  font-weight: 400;
+}
+
+.pharmacy-image {
+  margin-top: 21px;
+  margin-left: 24px;
+  float: left;
+}
+
+.open-or-closed-text {
+  margin-top: 33px;
+  margin-right: 21px;
+  margin-left: 24px;
+  padding: 5px 10px;
+  float: left;
+  border: 3px solid transparent;
+  background-color: #40f2a5;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pharmacy-hours-div {
+  padding-right: 48px;
+  padding-bottom: 21px;
+  padding-left: 48px;
+}
+
+.pharmacy-days-text {
+  float: left;
+  font-family: Lato, sans-serif;
+  color: #000;
+  font-weight: 400;
+}
+
+.pharmacy-days-text.hours {
+  padding-right: 18px;
+  float: right;
+  color: #9b9b9b;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.street-adress {
+  margin-left: 11px;
+  float: left;
+  font-family: Lato, sans-serif;
+  color: #2e2f31;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.street-adress.city {
+  padding-right: 7px;
+  padding-left: 7px;
+  color: #9b9b9b;
+}
+
+.edit-your-pharmacy {
+  display: block;
+  width: 180px;
+  margin-top: 22px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 46px;
+  background-color: #9b9b9b;
+  box-shadow: 1px 1px 8px 0 rgba(0, 0, 0, .2);
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.edit-your-pharmacy:hover {
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+}
+
+.doses-section {
+  margin-right: 25px;
+  margin-bottom: 8px;
+  margin-left: 25px;
+  padding: 7px 16px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.doses-section.left {
+  background-color: transparent;
+}
+
+.doses-section.doctors {
+  background-color: transparent;
+}
+
+.doses-section.insurance {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 11px;
+  padding-left: 11px;
+}
+
+.per-day-text {
+  float: left;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.per-day-text.number {
+  margin-right: 16px;
+  margin-left: 37px;
+  float: right;
+  color: #9b9b9b;
+  font-weight: 300;
+}
+
+.per-day-text.number.doses {
+  color: #40f2a5;
+  font-weight: 900;
+}
+
+.per-day-text.number.doses.low {
+  color: #e66b6b;
+}
+
+.per-day-text.number.doctor {
+  margin-right: 9px;
+}
+
+.per-day-text.doctor-name {
+  float: none;
+}
+
+.doctor-headshot {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.doctor-number {
+  margin-right: 9px;
+  float: right;
+  font-family: Lato, sans-serif;
+  color: #9b9b9b;
+  font-size: 13px;
+}
+
+.overdue {
+  color: #f76161;
+  font-weight: 700;
+}
+
+.add-a-doctor {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+}
+
+.insurance-information-container {
+  padding-right: 24px;
+  padding-left: 20px;
+}
+
+.provider-text {
+  margin-bottom: 9px;
+  padding-left: 5px;
+  font-family: Lato, sans-serif;
+  color: #181823;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.enrolle-id-text {
+  float: left;
+  font-family: Lato, sans-serif;
+  color: #2e2f31;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.enrolle-id-text.number {
+  float: right;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+}
+
+.find-doctors {
+  margin-top: 26px;
+  margin-right: 22px;
+  float: right;
+  border-radius: 56px;
+  background-color: #2edf92;
+}
+
+.find-doctors.button {
+  margin-top: 31px;
+  margin-left: 36px;
+  float: left;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .2);
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+}
+
+.find-doctors.button:hover {
+  -webkit-transform: scale(1.09);
+  -ms-transform: scale(1.09);
+  transform: scale(1.09);
+}
+
+.exit-remi {
+  margin-top: 13px;
+  margin-right: 14px;
+  padding: 3px 8px;
+  float: right;
+  border: 2px solid #d5d5d5;
+  border-radius: 156px;
+  background-color: transparent;
+  -webkit-transform: scale(0.78);
+  -ms-transform: scale(0.78);
+  transform: scale(0.78);
+  font-family: Lato, sans-serif;
+  color: #cecece;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.whole-screen {
+  height: 1000px;
+  background-image: url('../images/Remi Log Out Background-02.png');
+  background-position: 0px 0px;
+  background-size: contain;
+}
+
+.log-out-container {
+  margin-top: 52px;
+}
+
+.log-out-container.log-in-page {
+  margin-top: 60px;
+}
+
+.log-out-heading {
+  margin-bottom: 41px;
+  padding-top: 0px;
+  padding-left: 0px;
+  color: #6d6d6d;
+}
+
+.big-remi {
+  position: absolute;
+  left: 23px;
+  top: -117px;
+  right: 0px;
+  margin-top: 116px;
+  margin-left: 33px;
+}
+
+.city {
+  position: absolute;
+  left: 143px;
+  top: 300px;
+  right: 0px;
+  margin-top: 125px;
+  margin-left: 61px;
+}
+
+.log-out-div {
+  padding: 96px 0px 96px 65px;
+}
+
+.log-out-body {
+  margin-bottom: 8px;
+  padding-left: 57px;
+  font-family: Lato, sans-serif;
+  color: #6d6d6d;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.log-in-button {
+  margin-top: 302px;
+}
+
+.log-in {
+  display: block;
+  width: 130px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 24px;
+  padding-left: 24px;
+  border-radius: 126px;
+  background-color: #40f2a5;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.log-in.log-in-page-button {
+  margin-left: 64px;
+  float: left;
+}
+
+.log-in.left {
+  float: left;
+}
+
+.log-in.form {
+  padding-right: 4px;
+  padding-left: 4px;
+  float: left;
+}
+
+.field-head {
+  font-family: Lato, sans-serif;
+}
+
+.box-field {
+  border-radius: 10px;
+}
+
+html.w-mod-js *[data-ix="bounce-on-load"] {
+  -webkit-transform: translate(0px, -16px);
+  -ms-transform: translate(0px, -16px);
+  transform: translate(0px, -16px);
+}
+
+html.w-mod-js *[data-ix="fade-in-header"] {
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="fade-in-header-2"] {
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="fade-out"] {
+  opacity: 1;
+}
+
+html.w-mod-js *[data-ix="exit-remy"] {
+  opacity: 1;
+}

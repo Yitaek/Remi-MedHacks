@@ -24,7 +24,7 @@ export default (
     <Route path="doses" component={Doses} />
     <Route path="logout" component={LogOut} />
     <Route path="pharmacy" component={Pharmacy} />
-    <Route path="signup" component={Signup} />
+    <Route path="text" component={Signup} />
     <Route path="thanks" component={Thanks} />
 
   </Route>

@@ -62,7 +62,7 @@ app.get('/pharmacy', (req, res) => {
   res.sendFile(__dirname + '/build/index.html');
 });
 
-app.get('/signup', (req, res) => {
+app.get('/text', (req, res) => {
   res.sendFile(__dirname + '/build/index.html');
 });
 

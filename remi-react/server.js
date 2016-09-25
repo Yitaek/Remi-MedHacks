@@ -85,7 +85,7 @@ app.get('/assets/:file', function(req, res) {
  *************************************************************/
 
 if (!process.env.PRODUCTION) {
-  console.log("hot load");
+  console.log(process.env);
 
   const webpack = require('webpack');
   const WebpackDevServer = require('webpack-dev-server');

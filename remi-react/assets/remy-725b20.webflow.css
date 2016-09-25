@@ -194,6 +194,20 @@
   transform: scale(1.04);
 }
 
+.w-button:hover {
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+}
+
+.w-button {
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+  border-radius: 46px;
+}
+
 .first-section {
   margin: 15px 12px 1px;
 }
@@ -722,7 +736,7 @@
 }
 
 .log-out-heading {
-  margin-bottom: 41px;
+  margin-bottom: 20px;
   padding-top: 0px;
   padding-left: 0px;
   color: #6d6d6d;
@@ -738,15 +752,16 @@
 }
 
 .city {
+  margin-top: 200px;
+  margin-left: 150px;
 }
 
 .log-out-div {
-  padding: 96px 0px 96px 65px;
+  padding: 96px 0px 15px 65px;
 }
 
 .log-out-body {
   margin-bottom: 8px;
-  padding-left: 57px;
   font-family: Lato, sans-serif;
   color: #6d6d6d;
   font-size: 15px;
@@ -754,7 +769,7 @@
 }
 
 .log-in-button {
-  
+  padding-top: 20px;
 }
 
 .log-in {

@@ -81,10 +81,17 @@ html.w-mod-touch * {
   color: white;
   border: 0;
   line-height: inherit;
-  text-decoration: none;
+  text-decoration: none !important;
   cursor: pointer;
   border-radius: 0;
 }
+
+.w-button:hover {
+  text-decoration: none !important;
+  color: white !important;
+  cursor: pointer;
+}
+
 input.w-button {
   -webkit-appearance: button;
 }

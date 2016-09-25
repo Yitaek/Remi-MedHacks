@@ -81,7 +81,7 @@ export default class LoginPage extends React.Component {
             <div className="w-row">
               <div className="w-col w-col-4">
                 <div className="box-design">
-                  <h1 className="box-heading">Hydrocodon</h1>
+                  <h1 className="box-heading">Hydrocodone</h1>
                   <div className="doses-section w-clearfix">
                     <div className="per-day-text">Per Day</div>
                     <div className="number per-day-text">Three Times</div>
@@ -104,7 +104,7 @@ export default class LoginPage extends React.Component {
                   </div>
                 </div>
                 <div className="box-design">
-                  <h1 className="box-heading">Drug Two</h1>
+                  <h1 className="box-heading">Amoxicillin</h1>
                   <div className="doses-section w-clearfix">
                     <div className="per-day-text">Per Day</div>
                     <div className="number per-day-text">Once</div>
@@ -121,7 +121,7 @@ export default class LoginPage extends React.Component {
               </div>
               <div className="w-col w-col-4">
                 <div className="box-design">
-                  <h1 className="box-heading">Drug Zero</h1>
+                  <h1 className="box-heading">Benadryl</h1>
                   <div className="doses-section w-clearfix">
                     <div className="per-day-text">Per Day</div>
                     <div className="number per-day-text">Twice</div>
@@ -142,7 +142,7 @@ export default class LoginPage extends React.Component {
               </div>
               <div className="w-col w-col-4">
                 <div className="box-design">
-                  <h1 className="box-heading">Drug One</h1>
+                  <h1 className="box-heading">Micardis</h1>
                   <div className="doses-section w-clearfix">
                     <div className="per-day-text">Per Day</div>
                     <div className="number per-day-text">Twice</div>

@@ -330,7 +330,7 @@
 }
 
 .pick-up-button {
-  margin-left: 20px;
+  margin-left: 65px;
   padding: 2px 8px;
   border-radius: 68px;
   background-color: #40f2a5;
@@ -495,10 +495,28 @@ html.w-mod-touch * {
   color: white;
   border: 0;
   line-height: inherit;
-  text-decoration: none;
+  text-decoration: none !important;
   cursor: pointer;
   border-radius: 0;
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+  border-radius: 46px;
 }
+
+.w-button:hover {
+  text-decoration: none !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.w-button:hover {
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+}
+
 input.w-button {
   -webkit-appearance: button;
 }

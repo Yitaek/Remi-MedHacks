@@ -143,20 +143,20 @@ export default class LoginPage extends React.Component {
                       </FormControl>
                     </div>
                     <div className={styles['table-row']}>
-                      <div className={styles['drug-table-text']}>Drug</div>
-                      <div className={styles['date'] + ' ' + styles['drug-table-text']}>Date</div><a className={styles['pick-up-button'] + ' ' + styles['w-button']} href="#">Schedule Pick Up</a>
+                      <div className={styles['drug-table-text']}>HYC</div>
+                      <div className={styles['date'] + ' ' + styles['drug-table-text']}>09/25/16</div><a className={styles['pick-up-button'] + ' ' + styles['w-button']} href="#">Schedule Pick Up</a>
                     </div>
                     <div className={styles['table-row']}>
-                      <div className={styles['drug-table-text']}>Drug</div>
-                      <div className={styles['date'] + ' ' + styles['drug-table-text']}>Date</div><a className={styles['inactive'] + ' ' + styles['pick-up-button'] + ' ' + styles['w-button']} href="#">Schedule Pick Up</a>
+                      <div className={styles['drug-table-text']}>HYC</div>
+                      <div className={styles['date'] + ' ' + styles['drug-table-text']}>10/25/16</div><a className={styles['inactive'] + ' ' + styles['pick-up-button'] + ' ' + styles['w-button']} href="#">Schedule Pick Up</a>
                     </div>
                     <div className={styles['table-row']}>
-                      <div className={styles['drug-table-text']}>Drug</div>
-                      <div className={styles['date'] + ' ' + styles['drug-table-text']}>Date</div><a className={styles['inactive'] + ' ' + styles['pick-up-button'] + ' ' + styles['w-button']} href="#">Schedule Pick Up</a>
+                      <div className={styles['drug-table-text']}>HYC</div>
+                      <div className={styles['date'] + ' ' + styles['drug-table-text']}>11/25/16</div><a className={styles['inactive'] + ' ' + styles['pick-up-button'] + ' ' + styles['w-button']} href="#">Schedule Pick Up</a>
                     </div>
                     <div className={styles['table-row']}>
-                      <div className={styles['drug-table-text']}>Drug</div>
-                      <div className={styles['date'] + ' ' + styles['drug-table-text']}>Date</div><a className={styles['inactive'] + ' ' + styles['pick-up-button'] + ' ' + styles['w-button']} href="#">Schedule Pick Up</a>
+                      <div className={styles['drug-table-text']}>HYC</div>
+                      <div className={styles['date'] + ' ' + styles['drug-table-text']}>12/25/16</div><a className={styles['inactive'] + ' ' + styles['pick-up-button'] + ' ' + styles['w-button']} href="#">Schedule Pick Up</a>
                     </div>
                   </div>
                 </div>

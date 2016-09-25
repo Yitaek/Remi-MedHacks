@@ -28,12 +28,12 @@ export default class LoginPage extends React.Component {
   render() {
     return (
       <div className="wholepage">
-        <div className="maingpagecontainer w-container"><img className="bigremitext" data-ix="bounce" height="600" sizes="(max-width: 479px) 100vw, 309.625px" src="assets/Big%20Remi.png" srcset="assets/Big%20Remi.png 500w, assets/Big%20Remi.png 643w" />
+        <div className="maingpagecontainer w-container"><img className="bigremitext" data-ix="bounce" height="600" sizes="(max-width: 479px) 100vw, 309.625px" src="assets/Big%20Remi.png" srcSet="assets/Big%20Remi.png 500w, assets/Big%20Remi.png 643w" />
           <div className="phonepagediv w-clearfix">
             <div className="meettext">meet</div><img height="100" src="assets/remilogotext.png" />
             <div className="w-form">
               <form data-name="Email Form" id="email-form" name="email-form" action={this.throwAway}>
-                <input className="field-text-phone w-input" data-name="Name" id="name" maxlength="256" name="name" placeholder="Enter Your Phone Number" type="text" />
+                <input className="field-text-phone w-input" data-name="Name" id="name" maxLength="256" name="name" placeholder="Enter Your Phone Number" type="text" />
               </form>
               <div className="w-form-done">
                 <div>Thank you! Your submission has been received!</div>

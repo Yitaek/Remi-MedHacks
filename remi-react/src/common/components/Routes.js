@@ -18,7 +18,7 @@ export default (
   <Route path="/" component={App}>
     <IndexRoute component={LoginPage} />
     <Route path="home" component={HomePage} />
-    <Route path="prescriptions" component={Prescriptions} />
+    <Route path="dashboard" component={Prescriptions} />
     <Route path="settings" component={Settings} />
     <Route path="doctors" component={Doctors} />
     <Route path="doses" component={Doses} />

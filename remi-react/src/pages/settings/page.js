@@ -28,7 +28,7 @@ export default class LoginPage extends React.Component {
       <div className="left-side-bar">
         <div className="logo-div">
           <div className="logo-container w-container">
-            <a className="logo-link-block w-inline-block" href="/prescriptions"><img className="remi-logo" sizes="(max-width: 479px) 23vw, (max-width: 991px) 15vw, 120px" src="assets/Remi%20Logo%202.png" srcSet="assets/Remi%20Logo%202-p-500x209.png 500w, assets/Remi%20Logo%202-p-800x334.png 800w, assets/Remi%20Logo%202-p-1080x450.png 1080w, assets/Remi%20Logo%202.png 1093w" width="120"/>
+            <a className="logo-link-block w-inline-block" href="/dashboard"><img className="remi-logo" sizes="(max-width: 479px) 23vw, (max-width: 991px) 15vw, 120px" src="assets/Remi%20Logo%202.png" srcSet="assets/Remi%20Logo%202-p-500x209.png 500w, assets/Remi%20Logo%202-p-800x334.png 800w, assets/Remi%20Logo%202-p-1080x450.png 1080w, assets/Remi%20Logo%202.png 1093w" width="120"/>
             </a>
           </div>
         </div>
@@ -40,7 +40,7 @@ export default class LoginPage extends React.Component {
         <div className="dash-break"><img className="break-line" height="10" src="assets/Break Line.png"/>
         </div>
         <div className="nav-div w-clearfix">
-          <a className="dashboard-link-block w-clearfix w-inline-block" href="/prescriptions"><img className="nav-icon" src="assets/Dashboard1.png" width="20"/>
+          <a className="dashboard-link-block w-clearfix w-inline-block" href="/dashboard"><img className="nav-icon" src="assets/Dashboard1.png" width="20"/>
             <div className="side-nav-text">Dashboard</div>
           </a>
         </div>

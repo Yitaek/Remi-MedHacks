@@ -47,7 +47,7 @@ export default class LoginPage extends React.Component {
                 <div className="w-form-fail">
                   <div>Oops! Something went wrong while submitting the form</div>
                 </div>
-              </div><a className="form log-in w-button" href="/prescriptions">Enter</a><img className="city2" sizes="(max-width: 479px) 100vw, (max-width: 767px) 400px, (max-width: 991px) 374px, 400px" src="assets/Log Out City.png" srcSet="assets/Log%20Out%20City.png 500w, assets/Log%20Out%20City.png 800w, assets/Log%20Out%20City.png 1080w, assets/Log%20Out%20City.png 1600w, assets/Log%20Out%20City.png 1872w" width="400"/>
+              </div><a className="form log-in w-button" href="/dashboard">Enter</a><img className="city2" sizes="(max-width: 479px) 100vw, (max-width: 767px) 400px, (max-width: 991px) 374px, 400px" src="assets/Log Out City.png" srcSet="assets/Log%20Out%20City.png 500w, assets/Log%20Out%20City.png 800w, assets/Log%20Out%20City.png 1080w, assets/Log%20Out%20City.png 1600w, assets/Log%20Out%20City.png 1872w" width="400"/>
             </div>
             <div className="w-col w-col-6"><img className="big-remi" data-ix="bounce-on-load" height="500" sizes="(max-width: 479px) 100vw, 258.015625px" src="assets/Big%20Remi.png" srcSet="assets/Big%20Remi.png 500w, assets/Big%20Remi.png 643w"/>
             </div>

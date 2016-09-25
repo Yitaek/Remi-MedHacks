@@ -38,7 +38,7 @@ app.get('/home', (req, res) => {
   res.sendFile(__dirname + '/build/index.html');
 });
 
-app.get('/prescriptions', (req, res) => {
+app.get('/dashboard', (req, res) => {
   res.sendFile(__dirname + '/build/index.html');
 });
 

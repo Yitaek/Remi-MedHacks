@@ -509,6 +509,7 @@
   font-size: 12px;
   font-weight: 300;
   text-align: left;
+  line-height: 1.7;
 }
 
 .street-adress {
@@ -705,7 +706,7 @@
 
 .whole-screen {
   height: 1000px;
-  background-image: url('../images/Remi Log Out Background-02.png');
+  background-image: url('./Remi Log Out Background-02.png');
   background-position: 0px 0px;
   background-size: contain;
 }
@@ -735,12 +736,6 @@
 }
 
 .city {
-  position: absolute;
-  left: 143px;
-  top: 300px;
-  right: 0px;
-  margin-top: 125px;
-  margin-left: 61px;
 }
 
 .log-out-div {
@@ -757,7 +752,7 @@
 }
 
 .log-in-button {
-  margin-top: 302px;
+  
 }
 
 .log-in {

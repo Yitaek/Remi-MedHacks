@@ -47,7 +47,7 @@
 }
 
 .griddle tr:nth-child(odd){
-  background: rgba(170, 170, 170, 0.07);
+  background: rgba(170, 170, 170, 0.2);
 }
 
 .griddle tr:hover {
@@ -82,7 +82,10 @@
 }
 
 .griddle table{
-  width:100%;table-layout:fixed;
+  width: 750px;
+  table-layout: fixed;
+  margin-left: 15px;
+  table-layout:fixed;
 }
 
 .griddle td{

@@ -31,7 +31,7 @@ export default class LoginPage extends React.Component {
               <div>
                 <h1 className="log-out-heading">See you next time!</h1>
                 <p className="log-out-body">And don't forget to take your meds!</p>
-              </div><img className="city" sizes="(max-width: 479px) 100vw, (max-width: 767px) 400px, (max-width: 991px) 374px, 400px" src="assets/Log%20Out%20City.png" srcSet="assets/Log%20Out%20City.png 500w, assets/Log Out City.png 800w, assets/Log%20Out%20City.png 1080w, assets/Log%20Out%20City.png 1600w, assets/Log%20Out%20City.png 1872w" width="400"/>
+              </div><img className="city" sizes="(max-width: 479px) 100vw, (max-width: 767px) 400px, (max-width: 991px) 374px, 400px" src="assets/Log%20Out%20City.png" srcSet="assets/Log%20Out%20City.png 500w, assets/Log%20Out%20City.png 800w, assets/Log%20Out%20City.png 1080w, assets/Log%20Out%20City.png 1600w, assets/Log%20Out%20City.png 1872w" width="400"/>
             </div>
             <div className="w-col w-col-6"><img className="big-remi" data-ix="bounce-on-load" height="500" sizes="(max-width: 479px) 100vw, 258.015625px" src="assets/Big Remi.png" srcSet="assets/Big%20Remi.png 500w, assets/Big%20Remi.png 643w"/>
             </div>

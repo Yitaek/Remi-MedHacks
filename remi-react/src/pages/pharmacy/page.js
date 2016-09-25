@@ -3,6 +3,9 @@ import { browserHistory } from 'react-router';
 import firebase from 'firebase';
 import {PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
 import {FormControl} from 'react-bootstrap';
+import styles from './styles.css';
+import {Map, Marker, InfoWindow} from 'google-maps-react';
+
 export default class LoginPage extends React.Component {
   constructor(props) {
     super(props);
@@ -110,6 +113,12 @@ export default class LoginPage extends React.Component {
                     <div className="table-div w-clearfix">
                       <div className="street-adress">2410 N Charles Street</div>
                       <div className="city street-adress">Baltimore, Maryland</div>
+                      <br />
+                      <iframe src="//www.google.com/maps/embed/v1/place?q=2410%20N%20Charles%20Street,%20Baltimore,%20Maryland
+                          &zoom=17
+                          &key=AIzaSyAHjxESuQU2SN9Teong99IUZ0Q9wXp_QoY"
+                          className={styles.googleMaps}>
+                      </iframe>
                     </div>
                   </div>
                 </div>

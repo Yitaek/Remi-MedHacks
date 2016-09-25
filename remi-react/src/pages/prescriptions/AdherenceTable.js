@@ -73,7 +73,22 @@ export default class AdherencePieChart extends React.Component {
       console.log(data);
       console.log(Object.keys(data).length);
       if (Object.keys(data).length > 0) {
-        var columnMetadata = Object.keys(data[Object.keys(data)[0]]).map(function(key, index, array) {
+        var longest = -1;
+        var indexOfLongest = -1;
+        Object.keys(data).forEach(function(key, index, array) {
+          if (Object.keys(data[key]).length > longest) {
+            longest = Object.keys(data[key]).length;
+            indexOfLongest = key;
+          }
+        }.bind(this));
+        Object.keys(data[indexOfLongest]).forEach(function(key) {
+          Object.keys(data).forEach(function(key2) {
+            if (!data[key2][key]) {
+              data[key2][key] = [{name: 'Doses Taken', value: 0}, {name: 'Doses Missed', value: 0}, {name: 'No Dose Info', value: 1}];
+            }
+          })
+        }.bind(this));
+        var columnMetadata = Object.keys(data[indexOfLongest]).map(function(key, index, array) {
           return {
             "columnName": key,
             "cssClassName": styles.ingressPlatform,

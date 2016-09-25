@@ -37,9 +37,9 @@ export default class LoginPage extends React.Component {
               <div className="w-form">
                 <form data-name="Email Form" action={this.throwAway} id="email-form" name="email-form">
                   <label className="field-head" htmlFor="name">Phone Number:</label>
-                  <input className="box-field w-input" data-name="Name" id="name" maxLength="256" name="name" placeholder="Enter your phone number" required="required" type="text"/>
+                  <input className="box-field w-input" data-name="Name" id="name" maxLength="256" name="name" placeholder="Not Necessary" required="required" type="text"/>
                   <label className="field-head" htmlFor="Password">Password:</label>
-                  <input className="box-field w-input" data-name="Password" id="Password" maxLength="256" name="Password" placeholder="Enter your password" type="password"/>
+                  <input className="box-field w-input" data-name="Password" id="Password" maxLength="256" name="Password" placeholder="Not Necessary" type="password"/>
                 </form>
                 <div className="w-form-done">
                   <div>Thank you! Your submission has been received!</div>
@@ -47,7 +47,7 @@ export default class LoginPage extends React.Component {
                 <div className="w-form-fail">
                   <div>Oops! Something went wrong while submitting the form</div>
                 </div>
-              </div><a className="form log-in w-button" href="/prescriptions">Log In</a><img className="city" sizes="(max-width: 479px) 100vw, (max-width: 767px) 400px, (max-width: 991px) 374px, 400px" src="assets/Log Out City.png" srcSet="assets/Log%20Out%20City.png 500w, assets/Log%20Out%20City.png 800w, assets/Log%20Out%20City.png 1080w, assets/Log%20Out%20City.png 1600w, assets/Log%20Out%20City.png 1872w" width="400"/>
+              </div><a className="form log-in w-button" href="/prescriptions">Enter</a><img className="city" sizes="(max-width: 479px) 100vw, (max-width: 767px) 400px, (max-width: 991px) 374px, 400px" src="assets/Log Out City.png" srcSet="assets/Log%20Out%20City.png 500w, assets/Log%20Out%20City.png 800w, assets/Log%20Out%20City.png 1080w, assets/Log%20Out%20City.png 1600w, assets/Log%20Out%20City.png 1872w" width="400"/>
             </div>
             <div className="w-col w-col-6"><img className="big-remi" data-ix="bounce-on-load" height="500" sizes="(max-width: 479px) 100vw, 258.015625px" src="assets/Big%20Remi.png" srcSet="assets/Big%20Remi.png 500w, assets/Big%20Remi.png 643w"/>
             </div>

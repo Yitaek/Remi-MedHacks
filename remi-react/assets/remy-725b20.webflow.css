@@ -140,7 +140,7 @@
   margin-right: 34px;
   float: right;
   border-radius: 55px;
-  background-color: #ff6161;
+  background-color: #ff6161 !important;
   box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .2);
   -webkit-transition: -webkit-transform 500ms ease;
   transition: -webkit-transform 500ms ease;
@@ -365,14 +365,14 @@
   padding: 2px 8px;
   float: right;
   border-radius: 68px;
-  background-color: #40f2a5;
+  background-color: #40f2a5 !important;
   font-size: 11px;
 }
 
 .pick-up-button.inactive {
   margin-right: 10px;
   float: right;
-  background-color: #d8d8d8;
+  background-color: #d8d8d8 !important;
 }
 
 .pick-up-button.doses-page {

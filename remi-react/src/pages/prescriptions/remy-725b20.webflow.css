@@ -145,7 +145,7 @@
   margin-right: 34px;
   float: right;
   border-radius: 55px;
-  background-color: #ff6161;
+  background-color: #ff6161 !important;
   color: #fff;
   font-weight: 700;
 }
@@ -492,7 +492,6 @@ html.w-mod-touch * {
 .w-button {
   display: inline-block;
   padding: 9px 15px;
-  background-color: #3898EC;
   color: white;
   border: 0;
   line-height: inherit;

@@ -1,0 +1,55 @@
+.wholepage {
+  height: 1000px;
+  background-image: url('../images/Remi Log Out Background-02.png');
+  background-position: 0px 0px;
+  background-size: contain;
+}
+
+.maingpagecontainer {
+  padding-left: 67px;
+}
+
+.phonepagediv {
+  margin-top: 237px;
+  padding-top: 0px;
+}
+
+.meettext {
+  display: inline-block;
+  padding-top: 45px;
+  float: left;
+  font-family: Montserrat, sans-serif;
+  color: #bebebe;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.meettext.thanks {
+  padding-left: 134px;
+}
+
+.field-text-phone {
+  width: 400px;
+}
+
+.submit-button {
+  padding-right: 38px;
+  padding-left: 38px;
+  border-radius: 77px;
+  background-color: #40f2a5;
+}
+
+.bigremitext {
+  position: absolute;
+  top: 12px;
+  right: 243px;
+  bottom: 0px;
+  margin-right: -33px;
+  padding-right: 0px;
+}
+
+html.w-mod-js *[data-ix="bounce"] {
+  -webkit-transform: translate(0px, 16px);
+  -ms-transform: translate(0px, 16px);
+  transform: translate(0px, 16px);
+}

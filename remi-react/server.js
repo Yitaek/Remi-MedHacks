@@ -62,6 +62,14 @@ app.get('/pharmacy', (req, res) => {
   res.sendFile(__dirname + '/build/index.html');
 });
 
+app.get('/signup', (req, res) => {
+  res.sendFile(__dirname + '/build/index.html');
+});
+
+app.get('/thanks', (req, res) => {
+  res.sendFile(__dirname + '/build/index.html');
+});
+
 app.get('/assets/:file', function(req, res) {
     res.sendFile(__dirname + '/assets/' + req.params.file);
 });

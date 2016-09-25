@@ -10,6 +10,9 @@ import Doctors from '../../pages/doctors/page';
 import Doses from '../../pages/doses/page';
 import LogOut from '../../pages/log-out/page';
 import Pharmacy from '../../pages/pharmacy/page';
+import Signup from '../../pages/signup/page';
+import Thanks from '../../pages/thanks/page';
+
 
 export default (
   <Route path="/" component={App}>
@@ -21,5 +24,8 @@ export default (
     <Route path="doses" component={Doses} />
     <Route path="logout" component={LogOut} />
     <Route path="pharmacy" component={Pharmacy} />
+    <Route path="signup" component={Signup} />
+    <Route path="thanks" component={Thanks} />
+
   </Route>
 );

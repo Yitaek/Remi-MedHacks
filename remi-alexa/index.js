@@ -2,6 +2,7 @@
 var alexa = require('alexa-app');
 var firebase = require('firebase');
 var moment = require('moment');
+var SampleDrugs = require('./SampleDrugs')
 
 // Starting the App
 var app = new alexa.app();
@@ -50,6 +51,64 @@ app.intent('GetPharmacyIntent',
 		return false;
 	}
 )
+
+app.dictionary = {
+	"drugs": SampleDrugs.drugName
+};
+
+app.intent('GetDrugInfoIntent',
+	{
+		"slots": {"DRUGNAME":"LITERAL"},
+		"utterances": [
+			"{give me|tell me} more about {drugs|DRUGNAME}",
+			"what should I {know|be aware} about {drugs|DRUGNAME}"
+		]
+	},
+	function(request, response) {
+		firebase.initializeApp({
+		  databaseURL: "https://remi-b28c1.firebaseio.com"
+		});
+		var drug = request.slot('DRUGNAME')
+		drug_overview(drug, response);
+		return false;
+	}
+)
+
+function drug_overview(drug, response){
+	var db = firebase.database();
+	var ref = db.ref("/" + drug)
+
+	ref.on("value", function(snapshot){
+		var checkEmpty = snapshot.numChildren();
+
+		if(checkEmpty == 0){
+			response.say("This drug is not on our database")
+			response.shouldEndSession(false);
+			response.send();
+		} else{
+			response.say("Here are some useful information on " + drug + ".")
+			list_drug_information(snapshot, response);
+			response.send();
+		}
+	}, function(errorObject){
+		response.say("Attempted to access unpopulated data")
+		response.send();
+	})
+}
+
+function list_drug_information(snapshot, response){
+	response.say("Common side-effects include: ")
+	for(var i=0; i < snapshot.child("side-effects").numChildren(); i++){
+		var sideEffects = snapshot.child("side-effects").child(i).val();
+		if(i == snapshot.child("side-effects").numChildren() - 1){
+			response.say(" and " + sideEffects + ".")
+		} else{
+			response.say(sideEffects + ",")
+		}
+
+	}
+	return false;
+}
 
 function pharmacy_overview(response){
 	var day = moment().format('dddd');
@@ -199,6 +258,6 @@ function map_freq_to_instruction(freq){
 exports.handler = app.lambda();
 
 if ((process.argv.length === 3) && (process.argv[2] === 'schema')){
-	//console.log (app.schema ());
-    //console.log (app.utterances ());
+	console.log (app.schema ());
+    console.log (app.utterances ());
 }

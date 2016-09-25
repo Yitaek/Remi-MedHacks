@@ -112,7 +112,7 @@ export default class LoginPage extends React.Component {
                     <h3 className="box-heading">Pharmacy Location</h3>
                     <div className="table-div w-clearfix">
                       <div className="street-adress">2410 N Charles Street</div>
-                      <div className="city street-adress">Baltimore, Maryland</div>
+                      <div className="street-adress">Baltimore, Maryland</div>
                       <br />
                       <iframe src="//www.google.com/maps/embed/v1/place?q=2410%20N%20Charles%20Street,%20Baltimore,%20Maryland
                           &zoom=17
